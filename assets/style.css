@@ -1,0 +1,52 @@
+body{
+    background-color: rgb(96, 175, 222);
+}
+form{
+    font-family: Arial, Helvetica, sans-serif;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 8px;
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    color: white;
+}
+input{
+    width: 80%;
+    height: 30px;
+    border-radius: 8px;
+    border-style: groove;
+    border-color: azure;
+    background-color: transparent;
+}
+#table{
+    margin: auto;
+    opacity: 0;
+    transition: 0.5s;
+}
+#create,
+#update{
+    padding: 10px 30px;
+    margin-bottom: 10px;
+    border-radius: 35px;
+    color: white;
+    border-style: groove;
+    border-color: beige;
+    background-color: transparent;
+}
+button{
+    background-color: transparent;
+}
+.active#table{
+    opacity: 1;
+    transition: 0.5s;
+    transform: translateY(100px);
+}
+#view{
+    padding: 10px 30px;
+    margin-top: 20px;
+    border-radius: 35px;
+    margin-left: 46%;
+
+}
